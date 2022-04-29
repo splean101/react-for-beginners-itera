@@ -1,11 +1,6 @@
 import './App.css';
+import {Footer} from './Footer';
 
-type FooterProps = {
-  copyright: string;
-}
-const Footer: React.FC<FooterProps> = (props) => (
-  <footer>Footer {props.copyright}</footer>
-)
 const App = () => {
   return (
     <div className="App">
