@@ -4,5 +4,3 @@ type FooterProps = {
   export const Footer: React.FC<FooterProps> = (props) => (
     <footer>Footer {props.copyright}</footer>
   )
-
-   //default Footer;
