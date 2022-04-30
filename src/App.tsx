@@ -2,7 +2,6 @@ import './App.css';
 import {Footer} from './Footer';
 import {P} from './P';
 import bio from './bio.json';
-//console.log(keys in bio);
 
 const App = () => {
   return (
